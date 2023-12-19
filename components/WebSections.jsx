@@ -36,16 +36,17 @@ export function FAQ() {
       <h1>FAQ (คำถามที่พบบ่อย)</h1>
       <Accordion>
         {/*  AccordionItem#1 */}
+        <div className="underline"></div>
         <AccordionItem>
           <h2>
-            <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+            <AccordionButton bg="none" border="none" color="white">
+              <Box as="span" flex="1" textAlign="left" bg="transparent">
                 Q: What makes XYZ Company's products so unique?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
+          <AccordionPanel pb={4} textAlign="left">
             A: At XYZ Company, we pride ourselves on innovation and cutting-edge
             technology. Our products are crafted with a perfect blend of
             creativity and functionality, setting them apart from the
@@ -54,9 +55,10 @@ export function FAQ() {
           </AccordionPanel>
         </AccordionItem>
         {/*  AccordionItem#2 */}
+        <div className="underline"></div>
         <AccordionItem>
           <h2>
-            <AccordionButton>
+            <AccordionButton bg="none" border="none" color="white">
               <Box as="span" flex="1" textAlign="left">
                 Q: How does XYZ Company contribute to sustainability and
                 environmental conservation?
@@ -64,7 +66,7 @@ export function FAQ() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
+          <AccordionPanel pb={4} textAlign="left">
             A: XYZ Company is committed to environmental responsibility. We
             implement eco-friendly practices throughout our production process,
             from sourcing materials to manufacturing. Our dedication to
@@ -74,9 +76,10 @@ export function FAQ() {
           </AccordionPanel>
         </AccordionItem>
         {/*  AccordionItem#3 */}
+        <div className="underline"></div>
         <AccordionItem>
           <h2>
-            <AccordionButton>
+            <AccordionButton bg="none" border="none" color="white">
               <Box as="span" flex="1" textAlign="left">
                 Q: What kind of support can customers expect from XYZ Company's
                 customer service team?
@@ -84,7 +87,7 @@ export function FAQ() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
+          <AccordionPanel pb={4} textAlign="left">
             A: At XYZ Company, customer satisfaction is our top priority. Our
             dedicated support team is available 24/7 to address any inquiries or
             concerns you may have. Whether you need assistance with product
@@ -94,16 +97,17 @@ export function FAQ() {
           </AccordionPanel>
         </AccordionItem>
         {/*  AccordionItem#4 */}
+        <div className="underline"></div>
         <AccordionItem>
           <h2>
-            <AccordionButton>
+            <AccordionButton bg="none" border="none" color="white">
               <Box as="span" flex="1" textAlign="left">
                 Q: How does XYZ Company stay ahead of industry trends?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
+          <AccordionPanel pb={4} textAlign="left">
             A: XYZ Company stays at the forefront of industry trends through
             continuous research and development. We invest heavily in staying
             ahead of the curve, monitoring market dynamics, and actively seeking
@@ -113,9 +117,10 @@ export function FAQ() {
           </AccordionPanel>
         </AccordionItem>
         {/*  AccordionItem#5 */}
+        <div className="underline"></div>
         <AccordionItem>
           <h2>
-            <AccordionButton>
+            <AccordionButton bg="none" border="none" color="white">
               <Box as="span" flex="1" textAlign="left">
                 Q: Can you tell us about XYZ Company's commitment to community
                 involvement?
@@ -123,7 +128,7 @@ export function FAQ() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
+          <AccordionPanel pb={4} textAlign="left">
             A: XYZ Company is deeply committed to giving back to the communities
             we serve. We actively engage in philanthropic initiatives,
             supporting local charities and community projects. Additionally, we
